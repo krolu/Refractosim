@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <style>
+            div.mainstage { width:100%; float:left }
+        </style>
+    </head>
+    <body>
+        <div class="mainstage">
+            <canvas id="canvas" style="width:900px;height:400px"></canvas>
+            <img id="map" src="4096min.png" />
+        </div>
+    </body>
+    <script>
+        var c = document.getElementById('canvas');
+        var ctx = c.getContext('2d');
+        ctx.fillStyle = '#000';
+        ctx.fillRect(0,0, 400, 400);
+    </script>
+</html>
